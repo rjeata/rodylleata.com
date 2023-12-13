@@ -3,8 +3,6 @@
   padding: 0;
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", 
     Helvetica, Arial, sans-serif;
-  /* border: 1px solid red; */ 
-  /* overflow: hidden; */ 
 }
 
 body, html {
@@ -19,6 +17,7 @@ body {
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "loc1";
 }
 
+/* Navigation Bar */
 .navbar {
   background-color: #1b1c1d;
   height: 68px;
@@ -82,6 +81,7 @@ body {
   text-decoration: underline;
 }
 
+/* Navbar Toggle */
 @media screen and (max-width: 650px) {
   .navbar__container {
     display: flex;
@@ -162,6 +162,7 @@ body {
   }
 }
 
+/* Body */
 .main {
   background-color: #232425;
   height: 92%;
@@ -201,6 +202,7 @@ body {
   color:#a9a9b3
 }
 
+/* Image */
 .main__img--container {
   text-align: center;
   width: auto;
@@ -213,6 +215,7 @@ body {
     height: auto;
 }
 
+/* Social Media */
 .social {
   margin: 3px;
   border-radius: 6px;
@@ -226,6 +229,7 @@ body {
   color: #a9a9b3
 }
 
+/* Content Mobile Screen Toggle */
 @media screen and (max-width: 768px) {
    .main__container {
     margin: 0 auto;
@@ -263,104 +267,7 @@ body {
 
 }
 
-.footer {
-  position: fixed;
-  height: 20px;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #232425;
-  color: #a9a9b3;
-  text-align: center;
-}
-
-
-.main__context {
-  color: #212020;
-  width: 100%;
-}
-
-.main__content h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.1;
-  text-align: center;
-  color: #a9a9b3;
-} 
-
-.main__content p {
-  font-size: 1.7rem;
-  font-weight: 700;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  line-height: 1.1;
-  text-align: center;
-  color:#a9a9b3
-}
-
-.main__img--container {
-  text-align: center;
-  width: auto;
-  padding: 20px;
-}
-
-#main__img {
-  max-width: 300px;
-  max-height: 300px;
-  height: auto;
-}
-
-.social {
-  margin: 3px;
-  border-radius: 6px;
-  position: relative;
-  overflow: hidden;
-}
-
-.social a{
-  font-size: 27px;
-  padding: 10px;
-  color: #a9a9b3
-}
-
-@media screen and (max-width: 768px) {
-   .main__container {
-    margin: 0 auto;
-    padding: 2rem;
-  } 
-
-  .main__img--container {
-    text-align: center;
-    width: auto;
-    padding: 20px;
-  }
-
-  .main__content h1 {
-    font-size: 2.5rem;
-    margin-top: 1rem;
-  }
-
-  .main__content p {
-    font-size: 1.5rem;
-  }
-}
-
-@media screen and (max-height: 480px) {
-  .main__content h1 {
-    font-size: 2rem;
-  }
-
-  .main__content h2 {
-    font-size: 2rem;
-  }
-
-  .main__content p {
-    font-size: 1.5rem;
-  }
-
-}
-
+/* Footer */
 .footer {
   position: fixed;
   height: 40px;
