@@ -15,7 +15,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smothing: antialiased;
   font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "loc1";
-  background-color: #1b1c1d;
+  background-color: #232425;
 }
 
 /* Navigation Bar */
@@ -323,7 +323,7 @@ body {
   max-width: 800px;
   text-align: left;
   padding: 20px;
-  padding-bottom: 0px;
+  padding-bottom: auto;
   margin: 20px auto;
   color: #a9a9b3;
 }
@@ -341,10 +341,7 @@ body {
 .post-content p{
   font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-right: 1rem;
-  margin-left: 1rem;
+  margin: 1rem;
   line-height: 1.54;
   text-align: left;
 }
@@ -352,11 +349,60 @@ body {
 .post-content ul{
   font-size: 1.2rem;
   font-weight: 400;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
   line-height: 1.54;
   text-align: left;
   margin-left: 40px;
+}
+
+.post-group {
+  display: flex;
+}
+
+.post-year {
+  font-size: 2rem;
+  font-weight: 200;
+  margin: 1rem;
+  margin-bottom: 0;
+  line-height: 1.54;
+  text-align: left;
+  opacity: 0.6;
+  font-family: monospace; 
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  margin: 1rem;
+  margin-top: 0;
+  line-height: 1.54;
+}
+
+.post-list li {
+  margin: 0;
+  padding: 0;
+}
+
+.post-item{
+  border-bottom: 1px dashed #a9a9b3;
+}
+
+.post-item a{
+  color: #a9a9b3;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding: 12px 0;
+}
+
+.post-day {
+  margin-left: 1em;
+  flex-shrink: 0;
+  opacity: 0.6;
+  font-family: monospace;
 }
 
 @media screen and (max-width: 768px) {
@@ -375,11 +421,20 @@ body {
   .post-content ul{
     font-size: 1.1rem;
   }
+
+  .post-item a{
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .post {
     padding: 5px;
+    padding-right: 10px;
+  }
+
+  .content{
+    padding-right: 10px;
   }
 
   .post h2{
@@ -391,6 +446,10 @@ body {
   }
 
   .post-content ul{
+    font-size: 1rem;
+  }
+
+  .post-item a{
     font-size: 1rem;
   }
 }
