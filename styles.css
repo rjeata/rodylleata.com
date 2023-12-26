@@ -73,7 +73,9 @@ body {
   text-decoration: none;
   padding: 0 1.3rem;
   height: 100%;
-  font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 300;
+  font-family: monospace;
 }
 
 .navbar__links:hover {
@@ -101,7 +103,7 @@ body {
 }
 
 /* Navbar Toggle */
-@media screen and (max-width: 670px) {
+@media screen and (max-width: 765px) {
   .navbar__container {
     display: flex;
     justify-content: space-between;
@@ -313,8 +315,6 @@ body {
   flex: 1 auto;
   align-items: center;
   justify-content: center;
-  margin: 0;
-  background-color: #232425;
   letter-spacing: 0.06em;
 }
 
@@ -326,6 +326,7 @@ body {
   padding-bottom: auto;
   margin: 20px auto;
   color: #a9a9b3;
+
 }
 
 .post-info {
@@ -344,6 +345,15 @@ body {
   margin: 1rem;
   line-height: 1.54;
   text-align: left;
+}
+
+.post-content a{
+  color: #a9a9b3;
+}
+
+.post-content a:hover{
+  color: #212020;
+  background-color: #a9a9a9;
 }
 
 .post-content ul{
@@ -398,12 +408,20 @@ body {
   padding: 12px 0;
 }
 
+.post-item a:hover{
+  text-decoration: underline;
+}
+
 .post-day {
   margin-left: 1em;
   flex-shrink: 0;
   opacity: 0.6;
   font-family: monospace;
 }
+
+hr {
+  opacity: 0.6;
+  }
 
 @media screen and (max-width: 768px) {
   .post {
@@ -425,6 +443,10 @@ body {
   .post-item a{
     font-size: 1.1rem;
   }
+}
+
+embed {
+  width: 100%;
 }
 
 @media screen and (max-width: 480px) {
