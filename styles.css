@@ -414,15 +414,15 @@ body {
   padding: 12px 0;
 }
 
-.post-item a:hover{
-  text-decoration: underline;
-}
-
 .post-day {
   margin-left: 1em;
   flex-shrink: 0;
   opacity: 0.6;
   font-family: monospace;
+}
+
+.post-item a .post-title:hover{
+  text-decoration: underline;
 }
 
 hr {
