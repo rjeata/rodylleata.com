@@ -421,8 +421,12 @@ body {
   font-family: monospace;
 }
 
-.post-item a .post-title:hover{
+.post-item a:hover .post-title{
   text-decoration: underline;
+}
+
+.post-item a:hover .post-day{
+  text-decoration: none;
 }
 
 hr {
