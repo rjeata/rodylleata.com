@@ -201,7 +201,7 @@ body {
   background-color: #232425;
   padding-right: 50px;
   padding-left: 50px;
-  padding-top: 6.2rem;
+  padding-top: 3rem;
   width: auto; 
 }
 
@@ -237,8 +237,8 @@ body {
 }
 
 #main__img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 250px;
+    max-height: 250px;
     height: auto;
 }
 
@@ -247,7 +247,6 @@ body {
   margin: 3px;
   border-radius: 6px;
   position: relative;
-  overflow: hidden;
 }
 
 .social a{
@@ -305,7 +304,7 @@ body {
 /* Footer */
 .footer {
   position: fixed;
-  height: 40px;
+  height: 30px;
   left: 0;
   bottom: 0;
   width: 100%;
