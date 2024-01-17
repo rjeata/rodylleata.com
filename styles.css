@@ -201,7 +201,7 @@ body {
   background-color: #232425;
   padding-right: 50px;
   padding-left: 50px;
-  padding-top: 3rem;
+  padding-top: 8.5rem;
   width: auto; 
 }
 
@@ -328,11 +328,7 @@ body {
   max-width: 800px;
   text-align: left;
   padding: 20px;
-<<<<<<< HEAD
-  padding-bottom: 0px;
-=======
   padding-bottom: auto;
->>>>>>> 5640838cf6646cd91d39d48f8ab3c91d5425419b
   margin: 20px auto;
   color: #a9a9b3;
 
