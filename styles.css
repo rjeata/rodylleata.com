@@ -72,6 +72,9 @@ body {
   font-size: 1.1rem;
   font-weight: bold;
   font-family: monospace;
+  /* Add any additional styles needed for consistency */
+  padding: 10px; /* Example additional style */
+  margin: 0; /* Example additional style */
 }
 
 .navbar__menu {
@@ -212,7 +215,7 @@ body {
 /* Body */
 .main {
   background-color: #232425;
-  height: 92%;
+  height: 80%;
   justify-content: center;
   align-items: center;
 }
@@ -221,7 +224,7 @@ body {
   background-color: #232425;
   padding-right: 50px;
   padding-left: 50px;
-  padding-top: 8.5rem;
+  padding-top: 5rem;
   width: auto; 
 }
 
