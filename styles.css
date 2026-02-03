@@ -218,13 +218,14 @@ body {
   height: 80%;
   justify-content: center;
   align-items: center;
+  display: grid;
+  place-items: center;
 }
 
 .main__container {
   background-color: #232425;
   padding-right: 50px;
   padding-left: 50px;
-  padding-top: 5rem;
   width: auto; 
 }
 
